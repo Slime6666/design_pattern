@@ -12,7 +12,7 @@ public abstract class Pizza {
     }
     //装箱
     public void box(){
-        System.out.println(name+"烘焙");
+        System.out.println(name+"装箱");
     }
 
     public String getName() {

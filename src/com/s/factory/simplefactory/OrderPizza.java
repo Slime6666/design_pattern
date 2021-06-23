@@ -32,6 +32,7 @@ public class OrderPizza {
     //用户填写订单
     private String getType(){
         Scanner sc = new Scanner(System.in);
+        System.out.println("请输入披萨ham或cheese");
         String type = sc.nextLine();
         return type;
     }
