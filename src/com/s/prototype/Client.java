@@ -9,9 +9,9 @@ public class Client {
         Monkey m2 = (Monkey) m1.clone();
         Monkey m3 = (Monkey) m1.clone();
         //对象的克隆默认是浅拷贝，即指向同一地址
-        System.out.println("monkey="+m1+"friend1="+m1.friend.hashCode());
-        System.out.println("monkey="+m2+"friend2="+m2.friend.hashCode());
-        System.out.println("monkey="+m3+"friend3="+m3.friend.hashCode());
+        System.out.println("monkey="+m1+"friend1="+m1.friend+m1.friend.hashCode());
+        System.out.println("monkey="+m2+"friend2="+m2.friend+m2.friend.hashCode());
+        System.out.println("monkey="+m3+"friend3="+m3.friend+m3.friend.hashCode());
 
     }
 }
