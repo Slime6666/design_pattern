@@ -4,6 +4,7 @@ public class Monkey implements Cloneable{
     private String name;
     private Integer age;
     private String color;
+    public Monkey friend;//对象，克隆时默认浅拷贝
 
     public Monkey() {
     }
